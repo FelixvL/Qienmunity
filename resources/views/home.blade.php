@@ -1,11 +1,18 @@
-<html>
-    <body>
-        Home<br><br>
+@extends('layouts.app')
 
-        <a href="http://localhost:8000/dashboard">Dashboard</a><br>
-        <a href="http://localhost:8000/nieuws">Nieuws</a><br>
-        <a href="http://localhost:8000/community">Community</a><br>
-        <a href="http://localhost:8000/contact">Contact</a><br>
-        <a href="http://localhost:8000/resources">Resources</a><br>
-    </body>
-</html>
+@section('content')
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="panel panel-default">
+                <div class="panel-heading">Dashboard</div>
+
+                <div class="panel-body">
+                    You are logged in!
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
+>>>>>>> test
