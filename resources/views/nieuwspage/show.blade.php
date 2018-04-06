@@ -1,3 +1,4 @@
+<<<<<<< HEAD:resources/views/nieuws.blade.php
 <html>
     <body>
     <head>
@@ -17,6 +18,12 @@
         </script>
     </head>
         <h1>Nieuws</h1><br>
+=======
+@extends('layouts.app')
+
+@section('content')
+        
+>>>>>>> test:resources/views/nieuwspage/show.blade.php
 
         <a href="http://localhost:8000/">Home</a><br>
         <a href="http://localhost:8000/profiel">Profiel</a><br>
@@ -24,6 +31,7 @@
         <a href="http://localhost:8000/community">Community</a><br>
         <a href="http://localhost:8000/contact">Contact</a><br>
         <a href="http://localhost:8000/resources">Resources</a><br>
+<<<<<<< HEAD:resources/views/nieuws.blade.php
         
         <input type="text" placeholder="Titel" id="nieuws_id"><br>
         <textarea rows="15" cols="75" id="content"></textarea><br>
@@ -33,3 +41,14 @@
     </body>
 </html>
 
+=======
+  
+        
+        <h1>{{$post->titel}}</h1><br>
+        <p>{{$post->content}}</p>
+        <small>Geschreven op {{$post->created_at}}</small>
+        
+        
+@endsection
+    
+>>>>>>> test:resources/views/nieuwspage/show.blade.php
