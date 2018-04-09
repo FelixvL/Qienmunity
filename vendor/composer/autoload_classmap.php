@@ -21,13 +21,9 @@ return array(
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
     'App\\Http\\Controllers\\LoginController' => $baseDir . '/app/Http/Controllers/LoginController.php',
-<<<<<<< HEAD
     'App\\Http\\Controllers\\NieuwsController' => $baseDir . '/app/Http/Controllers/NieuwsController.php',
     'App\\Http\\Controllers\\PostIdController' => $baseDir . '/app/Http/Controllers/PostIdController.php',
-=======
-    'App\\Http\\Controllers\\PostIdController' => $baseDir . '/app/Http/Controllers/PostIdController.php',
     'App\\Http\\Controllers\\ProfileController' => $baseDir . '/app/Http/Controllers/ProfileController.php',
->>>>>>> test
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
     'App\\Http\\Middleware\\EncryptCookies' => $baseDir . '/app/Http/Middleware/EncryptCookies.php',
@@ -44,11 +40,6 @@ return array(
     'App\\User' => $baseDir . '/app/User.php',
     'App\\comment' => $baseDir . '/app/Comment.php',
     'App\\communitypost' => $baseDir . '/app/Communitypost.php',
-<<<<<<< HEAD
-    'App\\gebruikerModel' => $baseDir . '/app/gebruikerModel.php',
-    'App\\profile' => $baseDir . '/app/Profile.php',
-=======
->>>>>>> test
     'App\\resourcepost' => $baseDir . '/app/Resourcepost.php',
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',
     'Carbon\\CarbonInterval' => $vendorDir . '/nesbot/carbon/src/Carbon/CarbonInterval.php',

@@ -284,13 +284,9 @@ class ComposerStaticInitd6dcad55ff495d8afeec18bf7567cf8e
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/LoginController.php',
-<<<<<<< HEAD
         'App\\Http\\Controllers\\NieuwsController' => __DIR__ . '/../..' . '/app/Http/Controllers/NieuwsController.php',
         'App\\Http\\Controllers\\PostIdController' => __DIR__ . '/../..' . '/app/Http/Controllers/PostIdController.php',
-=======
-        'App\\Http\\Controllers\\PostIdController' => __DIR__ . '/../..' . '/app/Http/Controllers/PostIdController.php',
         'App\\Http\\Controllers\\ProfileController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProfileController.php',
->>>>>>> test
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -307,11 +303,6 @@ class ComposerStaticInitd6dcad55ff495d8afeec18bf7567cf8e
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'App\\comment' => __DIR__ . '/../..' . '/app/Comment.php',
         'App\\communitypost' => __DIR__ . '/../..' . '/app/Communitypost.php',
-<<<<<<< HEAD
-        'App\\gebruikerModel' => __DIR__ . '/../..' . '/app/gebruikerModel.php',
-        'App\\profile' => __DIR__ . '/../..' . '/app/Profile.php',
-=======
->>>>>>> test
         'App\\resourcepost' => __DIR__ . '/../..' . '/app/Resourcepost.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
